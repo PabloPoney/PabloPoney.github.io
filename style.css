@@ -58,6 +58,14 @@ body {
     margin-right: 0;
 }
 
+.main-nav li a:hover {
+    color: #ffcb78;
+}
+
+.main-nav li a:active {
+    color: rgba(255, 203, 120, 0.3);
+}
+
 .main-nav a {
     color: #ffffff;
     text-decoration: none;
@@ -143,6 +151,27 @@ body {
 .btn2 {
     background-color: #834700;
     color: white;
+    outline: none;
+}
+
+.btn:not(.btn2):not(.btn-reviews):hover {
+    color: rgb(106, 57, 0);
+    border-color: rgb(106, 57, 0);
+}
+
+.btn:not(.btn2):not(.btn-reviews):active {
+    color: rgba(106, 57, 0, 0.3);
+    border-color: rgba(106, 57, 0, 0.3);
+}
+
+.btn2:hover {
+    background-color: #6a3900;
+    border-color: #6a3900;
+}
+
+.btn2:active {
+    background-color: #6a3900;
+    color: rgba(255, 255, 255, 0.3);
 }
 
 .new-item img {
@@ -315,6 +344,14 @@ td {
     color: #834700;
 }
 
+.history-items dt i a:hover {
+    color: #605037;
+}
+
+.history-items dt i a:active {
+    color: #cab7a2;
+}
+
 dd {
     margin: 0;
 }
@@ -388,6 +425,18 @@ dd img {
     position: absolute;
     bottom: 0;
     left: 0;
+}
+
+.btn-reviews:hover {
+    background-color: #a5a097;
+    border-color: #a5a097;
+    color: white;
+}
+
+.btn-reviews:active {
+    background-color: #8f8a81;
+    border-color: #8f8a81;
+    color: #a29e96;
 }
 
 .catalog {
@@ -516,6 +565,14 @@ dd img {
     min-height: 48px;
 }
 
+.feedback-form-group input:hover {
+    background-color: #d9ad66;
+}
+
+.feedback-form-group input:focus {
+    background-color: wheat;
+}
+
 .feedback-form-group label {
     padding: 0 0 5px 0;
 }
@@ -537,6 +594,15 @@ dd img {
     min-height: 120px;
     padding: 0 2px;
     resize: none;
+    outline: none;
+}
+
+.feedback-form-group textarea:hover {
+    background-color: #d9ad66;
+}
+
+.feedback-form-group textarea:focus {
+    background-color: wheat;
 }
 
 .feedback-form-group:first-child label {
@@ -667,6 +733,14 @@ dd img {
     border-right: 0;
     border-left: 0;
     background-position: 0 -5px;
+}
+
+.social-btn:hover {
+    opacity: 0.8;
+}
+
+.social-btn:active {
+    opacity: 0.5;
 }
 
 .social-btn-html {
