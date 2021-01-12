@@ -244,10 +244,6 @@ td {
     padding: 0;
 }
 
-.flex-cont li {
-    list-style: none;
-}
-
 .advantage-item {
     width: 305px;
     box-sizing: border-box;
