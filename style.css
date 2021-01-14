@@ -333,6 +333,7 @@ td {
 .history {
     min-height: 680px;
     padding-top: 80px;
+    padding-bottom: 80px;
 }
 
 .history-title {
@@ -390,6 +391,7 @@ dd img {
     background-color: #ede5d8;
     min-height: 480px;
     padding-top: 80px;
+    padding-bottom: 80px;
 }
 
 .reviews-title {
