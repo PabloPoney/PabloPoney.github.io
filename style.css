@@ -91,7 +91,9 @@ body {
 
 .new-items {
     padding-top: 47px;
-    height: 1085px;
+    min-height: 1085px;
+    box-sizing: content-box;
+    padding-bottom: 50px;
 }
 
 .items-title,
@@ -120,11 +122,13 @@ body {
     padding: 0 25px 0 34px;
     box-sizing: border-box;
     position: relative;
-    height: 760px;
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
+
+.vertical-fix {}
 
 .item-block1 {
     align-self: flex-end;
@@ -133,7 +137,7 @@ body {
 
 .item-block2 {
     display: flex;
-    height: 505px;
+    height: auto;
     flex-direction: column;
 }
 
@@ -184,6 +188,10 @@ body {
 .fake {
     margin: 0;
     padding: 0;
+    height: auto;
+    display: inline-block;
+    float: left;
+    height: auto;
 }
 
 .fake:last-child .new-item {
@@ -191,7 +199,7 @@ body {
     width: 400px;
 }
 
-table {
+.item-block1 table {
     border-collapse: collapse;
     font-size: 16px;
     font-weight: bold;
@@ -199,10 +207,9 @@ table {
     text-transform: uppercase;
     white-space: nowrap;
     width: 150px;
-    ;
 }
 
-td {
+.item-block1 table td {
     border: 1px solid #e5e5e5;
     padding: 5px 15px 5px 10px;
 }
@@ -224,7 +231,7 @@ td {
 
 .item-composition-two {
     margin-bottom: 60px;
-    margin-top: auto;
+    margin-top: 304px;
 }
 
 .item-order b {
@@ -233,9 +240,10 @@ td {
 }
 
 .advantages {
-    height: 410px;
+    height: auto;
     background-color: #ffcb78;
     padding-top: 80px;
+    padding-bottom: 80px;
 }
 
 .flex-cont {
@@ -251,7 +259,6 @@ td {
     padding: 0 100px 0 95px;
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
 }
 
 .advantage-item:nth-child(1) {
@@ -281,6 +288,7 @@ td {
 
 .advatage-block {
     position: relative;
+    margin-top: 85px;
 }
 
 .advatage-block::before {
