@@ -859,3 +859,17 @@ dd img {
     transform: scaleX(1.2) translate(-20px);
     transition-duration: 1s;
 }
+
+.fractal img {
+    width: 300px;
+    height: 300px;
+    transition-duration: 10s;
+    position: absolute;
+    bottom: 80px;
+    right: 140px;
+}
+
+.fractal img:hover {
+    transform: rotate(3600deg) scale(1.5);
+    transition-duration: 5s;
+}
