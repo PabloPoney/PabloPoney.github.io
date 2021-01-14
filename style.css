@@ -815,7 +815,7 @@ dd img {
 .new-page {
     padding: 80px 100px;
     background: linear-gradient(to bottom left, rgb(255, 0, 0), rgba(255, 166, 0, 0.74), rgba(255, 255, 0, 0.705), rgba(0, 128, 0, 0.699), rgba(0, 0, 255, 0.753), rgb(128, 0, 128));
-    min-height: 800px;
+    min-height: 1800px;
     width: auto;
     font-family: "Comic Sans MS", cursive;
     font-size: 30px;
