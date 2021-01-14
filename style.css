@@ -155,15 +155,6 @@ body {
     justify-content: space-between;
 }
 
-.fake {
-    margin: 0;
-    padding: 0;
-    height: auto;
-    display: inline-block;
-    float: left;
-    height: auto;
-}
-
 .new-item:last-child {
     border-right: 1px solid #e5e5e5;
     width: 400px;
@@ -520,9 +511,6 @@ dd img {
     width: 61px;
 }
 
-.catalog-table tr th:nth-child(4),
-.catalog-table tr td:nth-child(4) {}
-
 .catalog-table tr th:last-child,
 .catalog-table tr td:last-child {
     text-align: right;
@@ -829,8 +817,9 @@ dd img {
     background: linear-gradient(to bottom left, rgb(255, 0, 0), rgba(255, 166, 0, 0.74), rgba(255, 255, 0, 0.705), rgba(0, 128, 0, 0.699), rgba(0, 0, 255, 0.753), rgb(128, 0, 128));
     min-height: 800px;
     width: auto;
-    font-family: "Mistral", cursive;
+    font-family: "Comic Sans MS", cursive;
     font-size: 30px;
+    position: relative;
 }
 
 .new-page-container {
@@ -839,13 +828,34 @@ dd img {
     margin: 0 auto;
 }
 
-.new-page a img {
+.new-page-container h1 {
+    line-height: 60px;
+}
+
+.refresh img {
     width: 60px;
     height: 60px;
     transition-duration: 1s;
+    position: absolute;
+    top: 160px;
+    left: 100px;
 }
 
-.new-page a img:hover {
+.back img {
+    width: 60px;
+    height: 60px;
+    transition-duration: 1s;
+    position: absolute;
+    top: 80px;
+    left: 100px;
+}
+
+.refresh img:hover {
     transform: rotate(360deg) scale(1.5);
+    transition-duration: 1s;
+}
+
+.back img:hover {
+    transform: scaleX(1.2) translate(-20px);
     transition-duration: 1s;
 }
