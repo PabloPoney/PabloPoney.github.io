@@ -77,6 +77,22 @@ body {
     float: left;
 }
 
+.header-logo a:hover {
+    opacity: 0.8;
+}
+
+.header-logo a:active {
+    opacity: 0.5;
+}
+
+.footer-logo a:hover {
+    opacity: 0.8;
+}
+
+.footer-logo a:active {
+    opacity: 0.5;
+}
+
 .header-top {
     margin-bottom: 120px;
     padding: 0;
@@ -199,7 +215,7 @@ body {
     width: 400px;
 }
 
-.item-block1 table {
+table {
     border-collapse: collapse;
     font-size: 16px;
     font-weight: bold;
@@ -209,7 +225,7 @@ body {
     width: 150px;
 }
 
-.item-block1 table td {
+td {
     border: 1px solid #e5e5e5;
     padding: 5px 15px 5px 10px;
 }
@@ -744,6 +760,14 @@ dd img {
 }
 
 .social-btn:active {
+    opacity: 0.5;
+}
+
+.footer-copyright a:hover {
+    opacity: 0.8;
+}
+
+.footer-copyright a:active {
     opacity: 0.5;
 }
 
